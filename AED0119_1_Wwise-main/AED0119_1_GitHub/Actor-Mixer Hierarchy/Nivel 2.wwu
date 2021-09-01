@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2FF83D0-5EF2-48A2-B0DB-DAD62726F424}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Nivel 2" ID="{F2FF83D0-5EF2-48A2-B0DB-DAD62726F424}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Enemigos" ID="{63B585C4-79FF-4F5F-9459-685B5F4F0C62}" ShortID="860375846">
+					<ChildrenList>
+						<Sound Name="Dragon" ID="{BAD9D43D-586E-4E57-B841-6A54B8FDB775}" ShortID="1018059378">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A4285266-53A5-41A2-A417-461570DA9C15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{367061A6-7DC2-4FF6-A34A-F8D3FEFEBAC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
