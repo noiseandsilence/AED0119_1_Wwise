@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BE02D3A6-AD10-46F6-8208-BDA4C90898E6}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BE02D3A6-AD10-46F6-8208-BDA4C90898E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Aii" ID="{E28BDB2C-AE42-477D-8769-5BB29ADFAED0}" ShortID="449579156">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A4285266-53A5-41A2-A417-461570DA9C15}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{367061A6-7DC2-4FF6-A34A-F8D3FEFEBAC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BIG SCRAP S RHAP P 01 04 09 2" ID="{2DE4BFE0-DE21-4BD4-B7A9-CE2C833820A6}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.403669591508101"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>BIG SCRAP S RHAP P 01 04 09 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="335996596"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="BIG SCRAP S RHAP P 01 04 09 2" ID="{2DE4BFE0-DE21-4BD4-B7A9-CE2C833820A6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
